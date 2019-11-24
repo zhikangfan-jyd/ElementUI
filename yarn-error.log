@@ -1,0 +1,53 @@
+Arguments: 
+  D:\AppInstall\Node\node.exe C:\Users\非凡\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @vue/cli -g
+
+PATH: 
+  C:\Users\非凡\bin;D:\AppInstall\Git\Git\mingw64\bin;D:\AppInstall\Git\Git\usr\local\bin;D:\AppInstall\Git\Git\usr\bin;D:\AppInstall\Git\Git\usr\bin;D:\AppInstall\Git\Git\mingw64\bin;D:\AppInstall\Git\Git\usr\bin;C:\Users\非凡\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\AppInstall\Node;D:\AppInstall\Git\Git\cmd;C:\Users\非凡\AppData\Local\Microsoft\WindowsApps;D:\AppInstall\VSCode\Microsoft VS Code\bin;C:\Users\非凡\AppData\Roaming\npm;D:\AppInstall\Git\Git\usr\bin\vendor_perl;D:\AppInstall\Git\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/rxjs/download/rxjs-6.5.3.tgz?cache=0&sync_timestamp=1568815796923&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Frxjs%2Fdownload%2Frxjs-6.5.3.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\非凡\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141191:19)
+      at Object.onceWrapper (events.js:298:28)
+      at ClientRequest.emit (events.js:209:13)
+      at TLSSocket.emitRequestTimeout (_http_client.js:690:9)
+      at Object.onceWrapper (events.js:298:28)
+      at TLSSocket.emit (events.js:209:13)
+      at TLSSocket.Socket._onTimeout (net.js:468:8)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7)
+
+npm manifest: 
+  {
+    "name": "elementui",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fanzhikang0320/ElementUI.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/fanzhikang0320/ElementUI/issues"
+    },
+    "homepage": "https://github.com/fanzhikang0320/ElementUI#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,5 +1,5 @@
 
-const path = require('path');
+// const path = require('path');
 module.exports = {
     //为路径设置别名
     //第一种方式

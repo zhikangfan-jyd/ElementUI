@@ -1,0 +1,15 @@
+@import './mixins/mixins.scss';
+@import './common/var.scss';
+@font-face{
+    font-family:'element-icons';
+    src:url(#{$--font-path}/element-icons.woff) format('woff'),
+        url(#{$--font-path}/element-icons.ttf) format('truetype');
+}
+
+[class^='el-icon-'],[class*='el-icon-']{
+    font-family:'element-icons' !important;
+    display:inline-block;
+    font-style:normal;
+    -webkit-font-smoothing:antialiased;
+    -moz-font-smoothing:grayscale;
+}

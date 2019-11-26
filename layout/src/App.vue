@@ -122,7 +122,7 @@
     </el-row>
 
   </div> -->
-  <div id="app">
+  <!-- <div id="app">
     <el-container>
       <el-header height="100px">header</el-header>
       <el-main>main</el-main>
@@ -188,28 +188,34 @@
         <el-footer>Footer</el-footer>
       </el-container>
     </el-container>
+  </div> -->
+  <div id="">
+    <el-icon name=""></el-icon>
   </div>
 </template>
 
 <script>
 // import ElRow from '@element/row';
 // import ElCol from '@element/col';
-import ElContainer from '@element/container';
-import ElFooter from '@element/footer';
-import ElHeader from '@element/header';
-import ElMain from '@element/main';
-import ElAside from '@element/aside';
 
+// import ElContainer from '@element/container';
+// import ElFooter from '@element/footer';
+// import ElHeader from '@element/header';
+// import ElMain from '@element/main';
+// import ElAside from '@element/aside';
+
+import ElIcon from '@element/icon';
 export default {
   name:'app',
   components:{
     // ElRow,
     // ElCol,
-    ElContainer,
-    ElFooter,
-    ElHeader,
-    ElMain,
-    ElAside
+    // ElContainer,
+    // ElFooter,
+    // ElHeader,
+    // ElMain,
+    // ElAside,
+    ElIcon
   }
 }
 </script>

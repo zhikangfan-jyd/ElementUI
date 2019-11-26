@@ -1,10 +1,49 @@
 
+/*-------header,footer,main区域的默认padding*/
 $--header-padding:0 20px !default;
 $--footer-padding:0 20px !default;
 $--main-padding:0 20px !default;
 
+/*------------------颜色相关的一些默认配置*/
+$--color-primary:#409EFF !default;
+$--color-write:#ffffff !default;
+$--color-black:#000000 !default;
+$--color-parmary-light-1:mix($--color-write,$--color-primary,10%) !default;
+$--color-parmary-light-2:mix($--color-write,$--color-primary,20%) !default;
+$--color-parmary-light-3:mix($--color-write,$--color-primary,30%) !default;
+$--color-parmary-light-4:mix($--color-write,$--color-primary,40%) !default;
+$--color-parmary-light-5:mix($--color-write,$--color-primary,50%) !default;
+$--color-parmary-light-6:mix($--color-write,$--color-primary,60%) !default;
+$--color-parmary-light-7:mix($--color-write,$--color-primary,70%) !default;
+$--color-parmary-light-8:mix($--color-write,$--color-primary,80%) !default;
+$--color-parmary-light-9:mix($--color-write,$--color-primary,90%) !default;
+
+//辅助色
+$--color-success:#67C23A !default;
+$--color-success-light:mix($--color-write,$--color-success,80%);
+$--color-success-lighter:mix($--color-write,$--color-success,90%);
+$--color-warning:#E6A23C !default;
+$--color-warning-light:mix($--color-write,$--color-warning,80%);
+$--color-warning-lighter:mix($--color-write,$--color-warning,90%);
+$--color-Danger:#F56C6C !default;
+$--color-Danger-light:mix($--color-write,$--color-Danger,80%);
+$--color-Danger-lighter:mix($--color-write,$--color-Danger,90%);
+$--color-Info:#909399 !default;
+$--color-Info-light:mix($--color-write,$--color-Info,80%);
+$--color-Info-lighter:mix($--color-write,$--color-Info,90%);
+
+/*-------------文字颜色*/
+$--color-text-primary:#303133 !default;
+$--color-text-regular:#606266 !default;
+$--color-text-secondary:#909399 !default;
+$--color-text-placeholder:#C0C4CC !default;
 
 
+$--border-color-base:#DCDFE6 !default;//一级边框
+$--border-color-light:#E4E7ED !default;//二级边框
+$--border-color-lighter:#EBEEF5 !default;//三级边框
+$--border-color-extra-light:#F2F6FC !default;//四级边框
+/*-------------媒体查询相关变量*/
 $--sm:768px;
 $--md:992px;
 $--lg:1200px;
@@ -17,6 +56,7 @@ $--breakpoints: (
     lg:(min-width:$--lg),
     xl:(min-width:$--xl)
 );
+
 
 $--breakpoints-spec:(
     'xs-only':(max-width:$--sm - 1),
